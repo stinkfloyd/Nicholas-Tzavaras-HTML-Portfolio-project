@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html lang="en">
+   
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link rel="stylesheet" href="pizzastyles.css">
+    <title>Stinkfloyd's Pizza Arcade: Delicious Food. Awesome Fun. Great People.</title>
+</head>
+    
+<body>
+    <div id="wrapper">
+        
+        <header>
+            <div id="header">
+                <div id="headertext">
+                <h1>Stinkfloyd's Pizza Arcade</h1>
+                <h2>Delicious Food. Awesome Fun. Great People.</h2>
+                </div>
+            </div>
+            
+            <div id="navigationbar">
+                <ul id ="navigation">
+                    <li><a href="index.html">Home</a>
+                    <li><a href="ourstory.html">Our Story</a>
+                    <li><a href="ourmenu.html">Our Menu</a>
+                    <li><a href="ourgames.html">Our Games</a>
+                    <li><a href="reservations.html">Reservations/Catering</a>   
+                </ul>
+            </div>
+        </header>
+
+        <div id="site_content">
+            
+            <div class="sidebar">
+                <h3>Fresh Out of the Oven!</h3>
+                <h4><strong>This Week's Pizza</strong></h4>
+                <h5>Stinky's Stink Pizza</h5>
+                <img src="bluecheese.jpg" id="pizzaofweek" alt="Stinky's Stink Pizza">
+                <p>Blue Cheese, Pepperoni, Bacon</p>
+                <h4><strong>New Pizza Flavor Contest!</strong></h4>
+                <h5>Have a pizza named after you!</h5>
+                <p>Our new pizza contest runs all month long! Come up with a good theme
+                and name, and fill out a form when you check out! We will have three winners.
+                Third place gets a free pizza, Second place gets a free meal, and First
+                place earns your pizza a spot on the menu with your picture for a month, 
+                plus a free meal!</p>
+                <h4><strong>Pizza Loyalty Rewards</strong></h4>
+                <h5>Earn free games, pizza, and merch!</h5>
+                <p>Our new loyalty programs rewards customers everytime they 
+                eat or play! Earn discounts, free pizza, merchandise, and even free
+                time on our games!</p>
+                <h3>Social Media</h3>
+                    <ul>
+                      <li><a href="#">Facebook</a></li>
+                      <li><a href="#">Twitter</a></li>
+                      <li><a href="#">Instagram</a></li>
+                    </ul>
+
+                <h3>A Message from Stink Floyd!</h3>
+                <audio src = "stinklovespizza.m4a" controls></audio>
+            </div>
+            
+            <div id="content">
+                <form action="demo.php" method="post">
+                <div class="form_settings">
+                    <p><span>First Name: </span><input type="text" name="firstName" value="" /></p>
+                    <p><span>Last Name: </span><input type="text" name="lastName" value="" /></p>
+                    <p><span>Party Size: </span><input type="text" name="partySIze" value="" /></p>
+                    <p><span>Email Address: </span><input type="text" name="email" value="" /></p>
+                    <p><span>Special Requests:</span><textarea rows="8" cols="50" name="requests"></textarea></p>
+                    <p><span>Reservation or Catering?</span><select id="id" name="requestType"><option value="1">Reservation</option><option value="2">Catering</option></select></p>
+                    <p style="padding-top: 10px"><span>&nbsp;</span><input class="submit" type="submit" name="name" value="Submit" /></p>
+                </div>
+                </form>
+            </div>
+        </div>  
+        <div id="footer">
+             Copyright &copy <script language="javascript">
+                                var today = new Date();
+                                document.write(today);
+                               </script>; 
+                Tzavaras s02150247| <a href="https://www.twitch.tv/stinkfloyd">Stinkfloyd's Twitch</a> 
+        </div>
+    </div>
+</body>
+</html>
